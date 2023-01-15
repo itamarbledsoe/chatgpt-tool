@@ -4,7 +4,6 @@
 // @version      1.0
 // @description  Add button to download current chat, including branches. Add buttons to embed code snippets in floating frames.
 // @author       ittixen
-// @match        http://*.example.com/*
 // @match        https://chat.openai.com/chat
 // @match        https://chat.openai.com/chat/*
 // @icon         https://chat.openai.com/favicon-32x32.png
@@ -31,24 +30,6 @@
   create_panel ,
   populate_code_buttons ,
  };
- // test();
- 
- function test() {
-  fetch(location.href);
-  add_random();
-  addEventListener( 'click' , add_random );
-  function add_random(evt) {
-   console.log( evt , evt?.target.closest('.cgptt-panel') );
-   if ( evt && evt?.target.closest('.cgptt-panel') ) return;
-   if ( Math.random() > .5 ) {
-    const el_p = document.createElement('p');
-    el_p.innerText = "Hello World\nWhat's up fellas and broads.";
-    const panel = create_panel(el_p);
-   } else {
-    embed_code('<p>Yo yo yo, missa onna mic!<br>Wassa gonna bike?</p><a href="http://example.com">example</a>');
-   }
-  }
- }
  
  // ACTIONS
  
