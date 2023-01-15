@@ -8,10 +8,17 @@ Feel free to examine the source code and suggest improvements.
 Instructions:
 
 ### Installation
-1. Install a browser extension for userscripts. I use Tampermonkey: https://www.tampermonkey.net/
-2. Create a new empty userscript with your choice of userscript manager.
-3. Make sure to delete everything in the new userscript.
-4. Copy the code from the file "cgptt.js" into your empty userscript.
+First, Install a browser extension for userscripts. I use Tampermonkey: https://www.tampermonkey.net/
+
+Direct link to the userscript: https://raw.githubusercontent.com/itamarbledsoe/chatgpt-tool/main/cgptt.js
+#### To install the userscript by importing it:
+1. Open the options page or menu of the userscript manager of your choice.
+2. Find the import option (in Tampermonkey it's under "Utilities")
+3. Either import directly from the URL above, or download first and import the downloaded file.
+#### Alternatively, you can just copy & paste the code.
+1. Create a new userscript with your userscript manager.
+2. Make sure to delete everything in the new userscript.
+3. Copy the code from the file into your empty userscript.
 
 ### Usage
 #### Downloading a Chat
