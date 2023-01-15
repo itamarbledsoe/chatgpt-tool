@@ -5,8 +5,6 @@ A userscript for ChatGPT which adds:
 
 Feel free to examine the source code and suggest improvements.
 
-Instructions:
-
 ### Installation
 First, Install a browser extension for userscripts. I use Tampermonkey: https://www.tampermonkey.net/
 
